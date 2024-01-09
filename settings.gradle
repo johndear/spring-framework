@@ -55,4 +55,6 @@ settings.gradle.projectsLoaded {
 	}
 }
 
-#111
+// liusu auto created
+include '001-test-spring'
+

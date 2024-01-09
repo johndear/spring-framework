@@ -275,6 +275,10 @@ configure([rootProject] + javaProjects) { project ->
 	apply from: "${rootDir}/gradle/toolchains.gradle"
 	apply from: "${rootDir}/gradle/ide.gradle"
 
+	// liusu manual
+	sourceCompatibility=17
+	targetCompatibility=17
+
 	pluginManager.withPlugin("kotlin") {
 		apply plugin: "org.jetbrains.dokka"
 		apply from: "${rootDir}/gradle/docs-dokka.gradle"
