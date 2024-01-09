@@ -34,8 +34,8 @@ public class TransactionService01 {
         });
         System.out.println(result);
 
-        userDao.in("7565", 2);
-        userDao.out("6566", 2);
+//        userDao.in("7565", 2);
+//        userDao.out("6566", 2);
     }
 
 
